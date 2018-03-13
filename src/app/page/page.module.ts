@@ -7,6 +7,9 @@ import { routing} from './page.routes'
 
 import { PageComponent } from './page.component';
 import { HomeComponent } from './home/home.component';
+import { UserComponent } from './user/user.component';
+import { AdminComponent } from './admin/admin.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   imports: [
@@ -17,7 +20,10 @@ import { HomeComponent } from './home/home.component';
   ],
   declarations: [
     PageComponent,
-    HomeComponent
+    HomeComponent,
+    UserComponent,
+    AdminComponent,
+    BlogComponent
   ],
   providers: [
     // {provide: 'todoService', useClass: TodoService}
