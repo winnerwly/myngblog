@@ -8,19 +8,19 @@ import { BlogComponent } from './blog/blog.component';
 export const routes: Routes = [
   {
     path: 'page',
-    redirectTo: 'page/home',
+    redirectTo: 'home',
     pathMatch: 'full'
   }, {
-    path: 'page/home',
+    path: 'home',
     component: HomeComponent
   }, {
-    path: 'page/user',
+    path: 'user',
     component: UserComponent
   }, {
-    path: 'page/admin',
+    path: 'admin',
     component: AdminComponent
   }, {
-    path: 'page/blog',
+    path: 'blog',
     component: BlogComponent
   }
 ];
