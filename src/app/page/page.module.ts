@@ -11,6 +11,9 @@ import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
 import { BlogComponent } from './blog/blog.component';
 
+import { NavComponent } from '../component/nav/nav.component';
+import { FooterComponent } from '../component/footer/footer.component';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -19,11 +22,13 @@ import { BlogComponent } from './blog/blog.component';
     routing
   ],
   declarations: [
+    NavComponent,
+    FooterComponent,
     PageComponent,
     HomeComponent,
     UserComponent,
     AdminComponent,
-    BlogComponent
+    BlogComponent,
   ],
   providers: [
     // {provide: 'todoService', useClass: TodoService}
