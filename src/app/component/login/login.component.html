@@ -1,3 +1,8 @@
-<p>
-  login works!
-</p>
+<div class="login">
+  <div nz-row>
+    <div nz-col [nzSpan]="12" [nzOffset]="6">
+    <nz-input [(ngModel)]="inputValue" [nzPlaceHolder]="'Basic usage'" (ngModelChange)="_console($event)"></nz-input>
+    <p>{{inputValue}}</p>
+    </div>
+  </div>
+</div>

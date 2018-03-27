@@ -9,6 +9,8 @@ import { PageModule } from './page/page.module';
 import { routing } from './app.routes';
 import { LoginComponent } from './component/login/login.component';
 
+import { NgZorroAntdModule } from 'ng-zorro-antd';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { LoginComponent } from './component/login/login.component';
     FormsModule,
     HttpModule,
     PageModule,
-    routing
+    routing,
+    NgZorroAntdModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
